@@ -5,6 +5,7 @@
   
   }
 
+
   body {
     color: hsl(202, 51%, 46%);
     font-family: Helvetica, Arial, sans-serif;
@@ -52,7 +53,7 @@
 
   
   .row::after {
-    content: "";
+    content: "...";
     clear: both;
     display: table-row-group;
   }
